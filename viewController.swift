@@ -3,6 +3,7 @@ import UIkit
 class viewController: UIViewController {
 
     let myName = "daniel"
+    let myFavoriteFood = "fruit"
     let color = "black"
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -11,6 +12,6 @@ class viewController: UIViewController {
     func accountNumber() {
         let number: Int
 
-        print("my Name is: \(myName)")
+        print("my Name is: \(myName), \(color), \(myFavoriteFood)")
     }
 }
