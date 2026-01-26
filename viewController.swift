@@ -7,7 +7,7 @@ class viewController: UIViewController {
         super.viewDidLoad()
     }
 
-    func account() {
-        
+    func accountNumber() {
+        let number: Int
     }
 }
