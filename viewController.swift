@@ -10,13 +10,9 @@ class viewController: UIViewController {
         super.viewDidLoad()
     }
 
-    func myPersonalDescription() -> String {
+    func myPersonalInformation() {
         let number: Int
 
-        return "my Name is: \(myName), \(color), \(myFavoriteFood)"
-    }
-
-    func myFavoriteFood(foodName: String) {
-        print(foodName)
+        print("my Name is: \(myName), \(color), \(myFavoriteFood)")
     }
 }
